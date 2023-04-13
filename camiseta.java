@@ -17,8 +17,8 @@ public class camiseta
      */
     public camiseta(int numero, String colorCami)
     {
-        int dorsal = numero;
-        String color = colorCami;
+        dorsal = numero;
+        color = colorCami;
     }
     
     public int getDorsal(){
@@ -33,7 +33,11 @@ public class camiseta
         return color;
     }
     
-    public void serColor(String color){
+    public void setColor(String color){
         this.color = color;
+    }
+    
+    public void imprimirDetalles() {
+        System.out.println("Color: " + color + ", Dorsal: " + dorsal);
     }
 }
