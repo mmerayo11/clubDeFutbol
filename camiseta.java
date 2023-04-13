@@ -20,4 +20,20 @@ public class camiseta
         int dorsal = numero;
         String color = colorCami;
     }
+    
+    public int getDorsal(){
+        return dorsal;
+    }
+    
+    public void setDorsal(int dorsal){
+        this.dorsal = dorsal;
+    }
+    
+    public String getColor(){
+        return color;
+    }
+    
+    public void serColor(String color){
+        this.color = color;
+    }
 }
