@@ -14,14 +14,4 @@ public class jugador
     
     private camiseta cami;
 
-    /**
-     * Constructor for objects of class jugador
-     */
-    public jugador(String nombreJugador, String posicionJugador)
-    {
-        // initialise instance variables
-        nombre= nombreJugador;
-        
-        posicion= posicionJugador;
-    }
 }
