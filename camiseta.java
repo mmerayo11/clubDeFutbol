@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class camiseta
+public class Camiseta
 {
     // instance variables - replace the example below with your own
     private int dorsal;
@@ -15,7 +15,7 @@ public class camiseta
     /**
      * Constructor for objects of class camiseta
      */
-    public camiseta(int numero, String colorCami)
+    public Camiseta(int numero, String colorCami)
     {
         dorsal = numero;
         color = colorCami;

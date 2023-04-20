@@ -5,19 +5,18 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class jugador
+public class Jugador
 {
     // instance variables - replace the example below with your own
     private String nombre;
     
     private String posicion;
     
-    private camiseta cami;
+    private Camiseta cami;
 
-    public jugador(String nombreJugador, String posicionJugador, camiseta camiseta) {
+    public Jugador(String nombreJugador, String posicionJugador) {
         nombre = nombreJugador;
         posicion = posicionJugador;
-        cami = camiseta;
     }
     
      public String getNombre(){
@@ -28,7 +27,7 @@ public class jugador
         return posicion;
     }
     
-    public camiseta getCamiseta(){
+    public Camiseta getCamiseta(){
         return cami;
     }
     
@@ -40,11 +39,12 @@ public class jugador
         posicion = posicionJugador;
     }
     
-    public void setCamiseta(camiseta camiseta) {
+    public void setCamiseta(Camiseta camiseta) {
         cami = camiseta;
     }
     
     public void imprimirDetalles() {
-        System.out.println("Nombre: " + nombre + ", posición: " + posicion + ", Camiseta: " + cami);
+        System.out.println("Nombre: " + nombre + ", posición: " + posicion + ", Dorsal camiseta: "
+        + cami.getDorsal() + ", Color camiseta: " + cami.getColor());
     }
 }
