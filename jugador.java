@@ -19,4 +19,16 @@ public class jugador
         posicion = posicionJugador;
         cami = camiseta;
     }
+    
+     public String getNombreJugador(){
+        return nombre;    
+    }
+    
+    public String getPosicionJugador(){
+        return posicion;
+    }
+    
+    public camiseta getCamiseta(){
+        return cami;
+    }
 }
