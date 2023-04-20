@@ -43,4 +43,8 @@ public class jugador
     public void setCamiseta(camiseta camiseta) {
         cami = camiseta;
     }
+    
+    public void imprimirDetalles() {
+        System.out.println("Nombre: " + nombre + ", posición: " + posicion + ", Camiseta: " + cami);
+    }
 }
