@@ -14,4 +14,9 @@ public class jugador
     
     private camiseta cami;
 
+    public jugador(String nombreJugador, String posicionJugador, camiseta camiseta) {
+        nombre = nombreJugador;
+        posicion = posicionJugador;
+        cami = camiseta;
+    }
 }
