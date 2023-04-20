@@ -20,15 +20,27 @@ public class jugador
         cami = camiseta;
     }
     
-     public String getNombreJugador(){
+     public String getNombre(){
         return nombre;    
     }
     
-    public String getPosicionJugador(){
+    public String getPosicion(){
         return posicion;
     }
     
     public camiseta getCamiseta(){
         return cami;
+    }
+    
+    public void setNombre(String nombreJugador) {
+        nombre = nombreJugador;
+    }
+    
+    public void setPosicion(String posicionJugador) {
+        posicion = posicionJugador;
+    }
+    
+    public void setCamiseta(camiseta camiseta) {
+        cami = camiseta;
     }
 }
